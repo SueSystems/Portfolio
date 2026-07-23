@@ -12,7 +12,7 @@ export default function Contact() {
           LinkedIn
         </a> |{' '}
         <a 
-          href="https://github.com/SUE2023/" 
+          href="https://github.com/SueSystems" 
           target="_blank" 
           rel="noopener noreferrer"
         >
