@@ -61,4 +61,14 @@ mkdir -p .github/workflows
 vim .github/workflows/deploy.yml
 git add . && git commit -m "Creating Github Action for Deployment" && git push
 
+git add . && git commit -m "Added: deploy_branch: gh-pages -to enable deployment from githubpage" && git push
+at application repository:
+Setting -> Action -> General -> scroll to "Workflow Permission" -> Select "Read and Write Permission" Save
+In yalm file add:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+At top of fiule after file name
 
